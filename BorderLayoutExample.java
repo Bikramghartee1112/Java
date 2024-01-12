@@ -6,7 +6,7 @@ public class BorderLayoutExample {
     JButton b1,b2,b3,b4,b5;
     BorderLayoutExample(){
         frame = new JFrame("BorderLayout Example");
-        frame.setSize(360,300);
+        frame.setBounds(500,150,400,300);
         frame.setLayout(new BorderLayout(10,10));
 
         b1 = new JButton("NORTH");
